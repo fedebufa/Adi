@@ -1,0 +1,14 @@
+.container-aboutUs{
+    padding: 1rem;
+}
+.container-aboutUs h2{
+    margin-bottom: 1rem;
+}
+.container-aboutUs p{
+    margin-bottom: 1rem;
+
+}
+.container-aboutUs img{
+    object-fit: cover;
+    width: 100%;
+}

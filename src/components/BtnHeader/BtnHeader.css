@@ -1,0 +1,22 @@
+.container-btn{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-header{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    appearance: none;
+    border: none;
+    background-color: #63b3ed;
+    color: white;
+    margin-bottom: 1rem;
+}
+.btn-header a{
+    display: flex;
+    gap: 0.5rem;
+    color: white;
+    text-decoration: none;
+}

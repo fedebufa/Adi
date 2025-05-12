@@ -1,0 +1,25 @@
+.container-form{
+    padding: 2rem;
+    background: #8e99a8;
+}
+.container-form form section{
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.container-form textarea{
+    resize: none;
+    height: 150px;
+    width: 100%;
+}
+.container-form label{
+    margin-bottom: 0.5rem;
+}
+.container-form input{
+    height: 30px;
+}
+.container-form button{
+    width: 100px;
+    padding: 0.5rem 1rem;
+    
+}

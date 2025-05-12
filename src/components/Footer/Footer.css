@@ -1,0 +1,35 @@
+footer{
+    background: #2c5282;
+    padding: 1rem;
+}
+footer h3{
+    text-align: center;
+    color: white;
+    margin: 1rem;
+}
+footer h4{
+   color: white;
+   margin: 1rem 0;
+   text-align: center;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+hr{
+    margin: 1rem;
+}
+.copy{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
