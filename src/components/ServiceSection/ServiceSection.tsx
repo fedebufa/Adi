@@ -1,19 +1,15 @@
-"use client"
+"use client";
 
-import './ServiceSection.css'
+import './ServiceSection.css';
 
-
-export const ServiceSection=()=>{
-    return(
+export const ServiceSection = () => {
+    return (
         <section id='servizi' className="container-service-section">
             <h2>I Nostri Servizi</h2>
-            <p>Offriamo un'ampia gamma di servizi 
+            <p>Offriamo un&apos;ampia gamma di servizi 
                 assistenziali personalizzati per rispondere alle
-                esigenze specifiche di ogni paziente
+                esigenze specifiche di ogni paziente.
             </p>
-
         </section>
-
-
-    )
-}
+    );
+};

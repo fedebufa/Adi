@@ -1,6 +1,8 @@
 "use client"
-import { FC, useEffect, useState} from 'react';
+import { FC } from 'react';
 import './NavBar.css'
+import Link from 'next/link';
+import Image from 'next/image';
 import { FaBars,FaTimes,FaWhatsapp,FaFacebook } from "react-icons/fa";
 
 
@@ -17,7 +19,7 @@ export const NavBar:FC<NavBarProps>=({openMenu,setMenu})=>{
     return(
         <nav>
             <ul className='menu'>
-                <li ><a href="/"><img className='logo' src='./logo.jpg' alt="" /></a></li>
+                <li ><Link href="/"><Image className='logo' src='./logo.jpg' alt="" /></Link></li>
                 <a className='right'
       href="https://wa.me/391234567890" // Inserisci qui il tuo numero con prefisso internazionale, senza "+" o spazi
       target="_blank"
@@ -38,7 +40,7 @@ export const NavBar:FC<NavBarProps>=({openMenu,setMenu})=>{
             <ul className={openMenu?'open':'list-menu'}>
              
          
-                <li><a href="/">Home</a></li>
+                <li><Link href="/">Home</Link></li>
                 <li><a onClick={setMenu} href="#servizi">Servizi</a></li>
                 <li><a onClick={setMenu} href="#contatti">Contatti</a></li>
                 <li><a onClick={setMenu} href="#chisiamo">Chi Siamo</a></li>
