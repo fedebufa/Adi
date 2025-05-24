@@ -12,8 +12,8 @@ export const Contact = () => {
       <h3>Informazioni di Contatto</h3>
       <address>
         <ul>
-          <li><strong>Indirizzo:</strong> Via Esempio, 123, Ragusa</li>
-          <li><strong>Telefono:</strong> +39 012 345 6789</li>
+          <li>Ragusa</li>
+          <li><strong>Telefono:</strong> +39 3701243914</li>
           <li><strong>Email:</strong> <a href="mailto:info@assistenza.it">info@assistenza.it</a></li>
           <li><strong>Orari:</strong> Lunedì - Venerdì: 9:00 - 18:00, Sabato: 9:00 - 12:00</li>
         </ul>

@@ -14,7 +14,7 @@ export default function Home() {
       <ServiceCard img="/logo.jpg" 
       title="Assistenza di Base" 
       description="
-      Support nelle attivita quotidiane come igiene personale, vestizione, 
+      Supporto nelle attivita quotidiane come igiene personale, vestizione, 
       mobilizzazione e alimentazione.
       I nostri OSS sono formati per garantire dignità e rispetto durante tutte
       le attivita assistenziali
