@@ -17,7 +17,7 @@ export const AboutUs = () => {
             </p>
 
             <Image 
-                src="https://img.freepik.com/foto-gratuito/gruppo-di-medici-con-il-simbolo-del-cuore_329181-19665.jpg" 
+                src="/logo.jpg" 
                 alt="Gruppo di medici" 
                 width={500} 
                 height={300} 

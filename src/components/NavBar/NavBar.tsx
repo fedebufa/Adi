@@ -19,9 +19,9 @@ export const NavBar:FC<NavBarProps>=({openMenu,setMenu})=>{
     return(
         <nav>
             <ul className='menu'>
-                <li ><Link href="/"><Image className='logo' src='./logo.jpg' alt="" /></Link></li>
+                <li ><Link href="/"><Image src="/logo.jpg" alt="Logo" width={100} height={50} /> </Link></li>
                 <a className='right'
-      href="https://wa.me/391234567890" // Inserisci qui il tuo numero con prefisso internazionale, senza "+" o spazi
+      href="https://wa.me/393701242914" // Inserisci qui il tuo numero con prefisso internazionale, senza "+" o spazi
       target="_blank"
       rel="noopener noreferrer"
       style={{ color: '#25D366', textDecoration: 'none' }}

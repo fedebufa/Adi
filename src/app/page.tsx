@@ -11,7 +11,7 @@ export default function Home() {
     <Header/>
     <ServiceSection/>
     <section>
-      <ServiceCard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqkxeRvc-9eKlHaNhM2ajAGaEHhB7zhe9gcg&s" 
+      <ServiceCard img="/logo.jpg" 
       title="Assistenza di Base" 
       description="
       Support nelle attivita quotidiane come igiene personale, vestizione, 
@@ -20,7 +20,7 @@ export default function Home() {
       le attivita assistenziali
       "/>
 
-      <ServiceCard img="https://thumbs.dreamstime.com/b/gruppo-di-infermiere-118729172.jpg"
+      <ServiceCard img="/logo.jpg"
       title="Assistenza Sanitaria"
       description="monitoraggio dei parametri vitali, 
       gestione delle terapie farmacologiche, 
@@ -30,7 +30,7 @@ export default function Home() {
       />
 
 
-      <ServiceCard img="https://c8.alamy.com/compit/d672e9/gruppo-di-mani-lavoro-di-squadra-amore-familiare-supporto-aiuto-della-carita-d672e9.jpg"
+      <ServiceCard img="/logo.jpg"
        title="Supporto Familiare"
        description="Formazione e supporto ai familiari,
        servizi di sollievo per i cargiver e assistenza organizzata domestica.
@@ -38,7 +38,7 @@ export default function Home() {
       />
 
 
-      <ServiceCard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7VeLhhWF0stKV3f8HPSzL58jfYEBW77V02A&s"
+      <ServiceCard img="/logo.jpg"
       title="Assistenza sociale"
       description="Mantenimento delle relazioni sociali,
       accompagnamento per visite mediche e attività ricreative. Promoviamo l'inclusione 
